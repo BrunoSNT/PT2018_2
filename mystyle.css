@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    font-family: "Courier New', Courier, monospac";
+    color: #484D6D;
+    background-color: #EFE9F4;
+    text-align: center;
+}
+
+h1 {
+    
+    color: #212332;
+}
+
+h2 {
+    color: #2E3246;
+}
+h3 {
+    color: #424664
+}
+.all {
+    padding-left:3.5em;
+}
+.box {
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.boxtablept {
+    width: 1150px;
+    height: 365px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.box2 {
+    width: 70%;
+}
+textarea {
+    position: relative;
+    width: 70%;
+    height: 95%;
+    resize: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav {  
+    text-align: center;
+    width: 100%;
+    background-color: #08B2E3;
+}
+table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    color: #868686;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr.header{
+    color: #6B6C6D;
+    background-color: #DEE2E6;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+td.pendente {
+    border-radius: 10px;
+    color: white;
+    background-color: #007bff;
+    ;
+}
+td.entregue{
+    padding: 50%
+    border-radius: 10px;
+    color: white;
+    background-color: #28a745;
+}
+td.cancelado{
+    border-radius: 10px;
+    color: white;
+    background-color: #E82431;
+}
+td.veritenspedidos{
+    color: #007bff;
+}
+td.editar{
+    color: #FDDF4C;
+}
+td.excluir{
+    color: #E82431;
+}
+.thcenter, .tdcenter{
+    text-align: center;
+}
+table.center {
+    width: 95%;
+    height: 95%;
+    margin-left:auto; 
+    margin-right:auto;
+  }
