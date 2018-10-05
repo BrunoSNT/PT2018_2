@@ -2,39 +2,44 @@ body {
     margin: 0px;
     font-family: "Courier New', Courier, monospac";
     color: #484D6D;
-    background-color: #EFE9F4;
+    background-color: #FFFFFF;
     text-align: center;
 }
 
 h1 {
-    
     color: #212332;
 }
 
 h2 {
     color: #2E3246;
 }
+
 h3 {
     color: #424664
 }
+
 .all {
-    padding-left:3.5em;
+    padding-left: 3.5em;
 }
+
 .box {
     width: 400px;
     height: 200px;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
 }
+
 .boxtablept {
     width: 1150px;
     height: 365px;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
 }
+
 .box2 {
     width: 70%;
 }
+
 textarea {
     position: relative;
     width: 70%;
@@ -43,60 +48,83 @@ textarea {
     margin-left: auto;
     margin-right: auto;
 }
-.nav {  
+
+.nav {
     text-align: center;
     width: 100%;
-    background-color: #08B2E3;
-}
-table {
-    border-collapse: collapse;
-    background-color: white;
+    background-color: #90CFFF;
 }
 
-th, td {
+table {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+th,
+td {
     color: #868686;
-    padding: 10px;
+    margin: 0%;
+    padding: 1%;
+    padding-right: 50px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
 
-tr.header{
+tr.header {
     color: #6B6C6D;
-    background-color: #DEE2E6;
+    background-color: #F6F8F8;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
-td.pendente {
-    border-radius: 10px;
+
+p.pendente {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 5px;
     color: white;
-    background-color: #007bff;
-    ;
+    background-color: #35A7FF;
 }
-td.entregue{
-    padding: 50%
-    border-radius: 10px;
+
+p.entregue {
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-radius: 5px;
     color: white;
-    background-color: #28a745;
+    background-color: #6BF178;
 }
-td.cancelado{
-    border-radius: 10px;
+
+p.cancelado {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 5px;
     color: white;
-    background-color: #E82431;
+    background-color: #FF5964;
 }
-td.veritenspedidos{
-    color: #007bff;
+
+td.veritenspedidos {
+    color: #35A7FF
 }
-td.editar{
-    color: #FDDF4C;
+
+td.editar {
+    color: #FFE74C;
 }
-td.excluir{
-    color: #E82431;
+
+td.excluir {
+    color: #FF5964;
 }
-.thcenter, .tdcenter{
+
+.thcenter,
+.tdcenter {
     text-align: center;
 }
+
 table.center {
     width: 95%;
     height: 95%;
-    margin-left:auto; 
-    margin-right:auto;
-  }
+    margin-left: auto;
+    margin-right: auto;
+}
