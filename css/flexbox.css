@@ -1,0 +1,32 @@
+.container {
+    background: #ddd;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.coluna {
+    padding: 10px;
+    width: 50%;
+    height: 100vh;
+    border: 3px dashed black;
+    background: #ddd;
+    display: flex;
+}
+
+.coluna2 {
+    padding: 10px;
+    width: 50%;
+    height: 100vh;
+    border: 3px dashed black;
+    background: #ddd;
+    display: flex;
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: #236eddbb;
+}
